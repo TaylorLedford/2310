@@ -1,0 +1,38 @@
+---
+title: "Root Lab"
+author: "Taylor Ledford"
+date: "10/26/2018"
+output: pdf_document
+---
+##Problem 1
+```{python}
+def quad_poly(a,b,c):
+  if (a == 0 and b == 0):
+    if (c == 0):
+      print("All reals")
+    else :
+      print("No real solution")
+  elif (a == 0):
+      print(-c/b)
+  elif (b**2-4*a*c < 0):
+      print("No real solution")
+  elif (b > 0):
+      print((-b - ((b ** 2 - 4 * a * c ) * ( 1 / 2)))) / (2 * a)
+      print((2 * c) / (-b - ((b ** 2 - 4 * a * c ) * ( 1 / 2))))
+  elif (b < 0):
+      print((-b + ((b ** 2 - 4 * a * c ) * ( 1 / 2)))) / (2 * a)
+      print((2 * c) / (-b + ((b ** 2 - 4 * a * c ) * ( 1 / 2))))
+      
+  
+      
+quad_poly(0,0,2)
+quad_poly(0,3,-10)
+quad_poly(2,-10,5)
+quad_poly((12/10), (5*10**20), (-2/1000))
+quad_poly(2,10,32)
+```
+
+##Problem 2
+```{python}
+
+```
