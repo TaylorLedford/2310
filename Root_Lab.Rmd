@@ -34,5 +34,6 @@ quad_poly(2,10,32)
 
 ##Problem 2
 ```{python}
-
+def bisect(a,b,nmax,eps):
+  
 ```
